@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "2025-p1-oiidawn"
+version = "0.1.0"
+description = ""
+authors = ["oiiDawn <oii.myself@outlook.com>"]
+readme = "README.md"
+packages = [{include = "2025_p1_oiidawn"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+flask = "^3.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

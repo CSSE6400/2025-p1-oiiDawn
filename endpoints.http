@@ -1,0 +1,24 @@
+@baseUrl = http://localhost:6400
+### Health
+GET {{baseUrl}}/api/v1/health
+### List All Todos
+GET {{baseUrl}}/api/v1/todos
+### Get a specific Todo
+GET {{baseUrl}}/api/v1/todos/1
+### Create a Todo
+POST {{baseUrl}}/api/v1/todos
+Content-Type: application/json
+
+{
+    "title": "Watch CSSE6400 Lecture",
+    "description": "Watch the CSSE6400 lecture on ECHO360 for week 1",
+}
+### Update a Todo
+PUT {{baseUrl}}/api/v1/todos/1
+Content-Type: application/json
+
+{
+    "title": "Watch CSSE6400 Lecture",
+}
+### Delete a Todo
+DELETE {{baseUrl}}/api/v1/todos/1
